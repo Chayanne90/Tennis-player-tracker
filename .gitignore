@@ -1,0 +1,32 @@
+# Environment variables - NEVER commit these
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+
+# Docker
+docker-compose.override.yml
+
+# Database
+*.sql
+*.dump
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Dependencies (adjust based on your stack)
+node_modules/
+vendor/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
