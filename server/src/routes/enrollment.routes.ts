@@ -1,8 +1,8 @@
 import { Router } from "express";
-import {getAllEnrollments} from '../controllers/enrollments.controller';
+import {getAllEnrollmens} from '../controllers/enrollment.controller';
 
 const router = Router();
 
-router.get('/',getAllEnrollments);
+router.get('/',getAllEnrollmens);
 
 export default router;
